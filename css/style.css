@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rowdies&display=swap');
-:root{
-    --cor-padrao : rgb(157, 226, 184);
+
+:root {
+    --cor-padrao: rgb(157, 226, 184);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Nunito';
 }
 
-header{
+header {
     padding: 30px;
     background-color: var(--cor-padrao);
     display: flex;
@@ -16,12 +18,12 @@ header{
     justify-content: space-around;
 }
 
-header h4{
+header h4 {
     font-family: 'Rowdies';
     font-size: 25px;
 }
 
-.bt-link{
+.bt-link {
     text-decoration: none;
     color: black;
     padding: 10px;
@@ -29,18 +31,49 @@ header h4{
     border: none;
 }
 
-.bt-link:hover{
+.bt-link:hover {
     color: lightgray;
     background-color: black;
 }
 
-main{
+main {
     display: grid;
     grid-template-columns: auto auto;
     margin: 15px;
 }
 
-footer{
-    height: 100px;
+textarea {
+    padding: 10px;
+}
+
+.area-exibicao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+canvas {
+    background-color: lightgray;
+}
+
+footer {
+    height: 120px;
     background-color: var(--cor-padrao);
+    text-align: center;
+}
+
+footer p {
+    padding: 15px;
+}
+
+.fab {
+    padding: 10px;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 5px;
 }

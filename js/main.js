@@ -45,7 +45,11 @@ function criarPernaDireita() {
 }
 
 function main() {
-    criarTroncoDaForca();
+    const botaoInicarJogo = document.getElementById("iniciar-jogo");
+    botaoInicarJogo.addEventListener("click", () => {
+        criarTroncoDaForca();
+    });
+    
 }
 
 main();

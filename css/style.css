@@ -42,6 +42,10 @@ main {
     margin: 15px;
 }
 
+.titulo-palavra-chave {
+    text-align: center;
+}
+
 textarea {
     padding: 10px;
 }
